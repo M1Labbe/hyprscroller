@@ -11,7 +11,7 @@ endif()
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(HYPRLAND REQUIRED hyprland)
-pkg_check_modules(DEPS REQUIRED hyprutils hyprlang pixman-1 libdrm pangocairo libinput wayland-server xkbcommon hyprland-devel)
+pkg_check_modules(DEPS REQUIRED hyprutils hyprlang pixman-1 libdrm pangocairo libinput wayland-server xkbcommon hyprland)
 
 # Compile flags
 set(CMAKE_CXX_STANDARD 23)
