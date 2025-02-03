@@ -46,6 +46,6 @@ add_library(hyprscroller SHARED
         )
 
 add_compile_definitions(WLR_USE_UNSTABLE)
-message("HYPRLAND_INCLUDE_DIRS: ${HYPRLAND_INCLUDE_DIRS}")
+
 target_include_directories(hyprscroller PRIVATE ${HYPRLAND_INCLUDE_DIRS} ${DEPS_INCLUDE_DIRS})
 set_target_properties(hyprscroller PROPERTIES PREFIX "")
